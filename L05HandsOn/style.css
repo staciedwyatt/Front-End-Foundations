@@ -1,0 +1,43 @@
+.header {
+  color: white;
+  background-color: black;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 100px;
+  border: 1px solid blue;
+  width: 5000px;
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+.about {
+  color: black;
+  font-size: 100px;
+  font-family: 'Times New Roman', Times, serif;
+  display:flex;
+  justify-content: center; 
+  font-weight: 100;
+  align-items:center;
+  }
+
+.img {
+  display:flex;
+  flex-wrap: center;
+  justify-content: space-between;
+  align-items: center; 
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.photos {
+  display: flex;
+  background-color: black;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 5px;
+  max-width: 900px;
+  align-items: center;
+}
