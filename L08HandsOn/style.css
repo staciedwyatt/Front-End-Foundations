@@ -1,0 +1,29 @@
+
+body{
+    background-color: bisque;
+    color: black;
+    text-align: center;
+    height: fit-content;
+    font-size: 30px;
+    
+}
+.name{
+    background-color: antiquewhite;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    color:blue;
+}
+
+p{
+    color:blue;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    font-family:'Courier New', Courier, monospace;
+}
+
+.input{
+    color: red;
+}

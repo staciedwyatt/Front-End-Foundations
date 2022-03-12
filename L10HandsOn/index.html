@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Stacie D. Wyatt</title>
+        <link rel="stylesheet" href=style.css>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        crossorigin="anonymous"></script>
+    </head>
+      
+    <body>
+        <header> 
+            Stacie D. Wyatt, Software Developer:
+            <p>Date/Time: <span id="datetime"></span></p><script>var dt = new Date();
+                document.getElementById("datetime").innerHTML=dt.toLocaleString();</script>  
+        </header><br>
+
+        <img src="Images/sdw.jpg"/><br>
+
+        
+        <h2>Tech Related Skills:</h2>
+            <ol>
+                <li>New user of VS Code</li>
+                <li>Can create a basic HTML layout</li>
+                <li>Audio and video Editing</li>
+                
+            </ol>
+
+        <h2>Social Media</h2><br>
+        
+        <div class="icons">
+            
+            <span>
+                <a href="https://linkedin.com/in/wyattstacie/" target="_blank">
+                <img src="Images/linkedin3.png"/>
+                </a>
+            </span><br>
+
+            <span>
+                <a href="https://github.com/staciedwyatt/" target="_blank">
+                <img src="Images/github2.png"/>
+                </a>
+                </span><br>
+
+            <span>
+                <a href="https://www.twitter.com/sdwyatt" target="_blank">
+                <img src="Images/twitter2.png"/>
+                </a>
+                </span><br>
+
+            <span>
+                <a href="https://www.instagram.com/sdwyatt1980/" target="_blank">
+                <img src="Images/instagram2.png"/>
+                </a>
+                </span><br>
+
+            <span>
+                <a href="https://www.facebook.com/staciewyatt/" target="_blank">
+                <img src="Images/facebook2.png" />
+                </a>
+                </span><br>
+
+             <span>
+                <a href="https://www.tiktok.com/@staciedwyatt/" target="_blank">
+                <img src="Images/tiktok.png"/>
+                </a>
+                </span><br>
+            <span>
+                <a href="https://www.youtube.com/c/StacieWyatt1980" target="_blank">
+                <img src="Images/youtube.png"/>
+                </a>
+                </span><br>
+        </div>
+
+        <div>
+            <h2> Git Repos</h2>
+            <ul id="respositories" class="list-group"></ul>
+            <button onclick ="gitRepo()"> Click for Repos</button>
+
+        </div>
+       
+        <script src="script.js" type="text/javascript"></script>
+
+        <footer class = "footer">
+            <img src="Images/email.png"/>
+            <h2>wyattstacie@gmail.com</h2>
+        </footer> <br>
+
+    </body>
+</html>
